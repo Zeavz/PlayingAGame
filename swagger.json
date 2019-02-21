@@ -1,0 +1,32 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "0.0.1",
+    "title" : "IAmPlayingAGame",
+    "description" : "I am playing a game"
+  },
+  "paths" : {
+    "/getscreen" : {
+      "get" : {
+        "summary" : "ok",
+        "description" : "ok",
+        "responses" : {
+          "200" : {
+            "description" : "OK",
+            "schema" : {
+              "properties" : {
+                "message" : {
+                  "type" : "string",
+                  "example" : "cool Stuff"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "host" : "virtserver.swaggerhub.com",
+  "basePath" : "/Zeavz9/PlayGame/0.0.1",
+  "schemes" : [ "https" ]
+}
